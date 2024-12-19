@@ -1,12 +1,29 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.todo-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: aquamarine;
+}
+li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 179px;
+    height: 40px;
+    color: rgb(8, 8, 8);
+    border: 0.5px solid rgb(196, 193, 193);
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    background-color: rgb(245, 243, 240);
+    padding-left: 10px;
+}
+.delete{
+    color: red;
+    border: 3px gray;
+    background-color: rgb(235, 226, 226);
+}
